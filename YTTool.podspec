@@ -3,10 +3,10 @@ Pod::Spec.new do |s|
   s.name         = "YTTool"
   s.version      = "0.0.1"
   s.summary      = "YTTool 工具"
+  s.description      = "test description"
 
-  s.homepage     = "https://476139183.github.io" 
   s.license      = { type: 'MIT', file: 'LICENSE' }
-
+  s.homepage     = "https://476139183.github.io" 
   s.author       = { "duanyutian" => "476139183@qq.com" }
 
   s.platform     = :ios, "8.0"
