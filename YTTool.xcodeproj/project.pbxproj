@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		090314C021DC8B7900B4D836 /* UIDevice+YTInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 090314BD21DC8B7900B4D836 /* UIDevice+YTInfo.m */; };
 		0970725F21D71742004E1E01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0970725E21D71742004E1E01 /* AppDelegate.m */; };
 		0970726221D71742004E1E01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0970726121D71742004E1E01 /* ViewController.m */; };
 		0970726521D71742004E1E01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0970726321D71742004E1E01 /* Main.storyboard */; };
@@ -14,8 +15,6 @@
 		0970726A21D71743004E1E01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0970726821D71743004E1E01 /* LaunchScreen.storyboard */; };
 		0970726D21D71743004E1E01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0970726C21D71743004E1E01 /* main.m */; };
 		0970727721D71743004E1E01 /* YTToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0970727621D71743004E1E01 /* YTToolTests.m */; };
-		0970728621D71997004E1E01 /* UIDevice+YTInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0970728521D71997004E1E01 /* UIDevice+YTInfo.m */; };
-		0970728721D71997004E1E01 /* UIDevice+YTInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0970728521D71997004E1E01 /* UIDevice+YTInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		090314BD21DC8B7900B4D836 /* UIDevice+YTInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+YTInfo.m"; sourceTree = "<group>"; };
+		090314BE21DC8B7900B4D836 /* YTToolHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTToolHeader.h; sourceTree = "<group>"; };
+		090314BF21DC8B7900B4D836 /* UIDevice+YTInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+YTInfo.h"; sourceTree = "<group>"; };
 		0970725A21D71742004E1E01 /* YTTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0970725D21D71742004E1E01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0970725E21D71742004E1E01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -42,9 +44,6 @@
 		0970727221D71743004E1E01 /* YTToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0970727621D71743004E1E01 /* YTToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTToolTests.m; sourceTree = "<group>"; };
 		0970727821D71744004E1E01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0970728121D71826004E1E01 /* YTToolHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTToolHeader.h; sourceTree = "<group>"; };
-		0970728421D71997004E1E01 /* UIDevice+YTInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "UIDevice+YTInfo.h"; path = "you/UIDevice+YTInfo.h"; sourceTree = "<group>"; };
-		0970728521D71997004E1E01 /* UIDevice+YTInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+YTInfo.m"; path = "you/UIDevice+YTInfo.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +64,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		090314BC21DC8B6900B4D836 /* YTTools */ = {
+			isa = PBXGroup;
+			children = (
+				090314BE21DC8B7900B4D836 /* YTToolHeader.h */,
+				090314BF21DC8B7900B4D836 /* UIDevice+YTInfo.h */,
+				090314BD21DC8B7900B4D836 /* UIDevice+YTInfo.m */,
+			);
+			path = YTTools;
+			sourceTree = "<group>";
+		};
 		0970725121D71742004E1E01 = {
 			isa = PBXGroup;
 			children = (
@@ -90,7 +99,7 @@
 				0970725E21D71742004E1E01 /* AppDelegate.m */,
 				0970726021D71742004E1E01 /* ViewController.h */,
 				0970726121D71742004E1E01 /* ViewController.m */,
-				0970728221D71832004E1E01 /* YTTool */,
+				090314BC21DC8B6900B4D836 /* YTTools */,
 				0970726321D71742004E1E01 /* Main.storyboard */,
 				0970726621D71743004E1E01 /* Assets.xcassets */,
 				0970726821D71743004E1E01 /* LaunchScreen.storyboard */,
@@ -107,24 +116,6 @@
 				0970727821D71744004E1E01 /* Info.plist */,
 			);
 			path = YTToolTests;
-			sourceTree = "<group>";
-		};
-		0970728221D71832004E1E01 /* YTTool */ = {
-			isa = PBXGroup;
-			children = (
-				0970728121D71826004E1E01 /* YTToolHeader.h */,
-				0970728421D71997004E1E01 /* UIDevice+YTInfo.h */,
-				0970728521D71997004E1E01 /* UIDevice+YTInfo.m */,
-				0970728321D71842004E1E01 /* you */,
-			);
-			path = YTTool;
-			sourceTree = "<group>";
-		};
-		0970728321D71842004E1E01 /* you */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = you;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,7 +220,7 @@
 			files = (
 				0970726221D71742004E1E01 /* ViewController.m in Sources */,
 				0970726D21D71743004E1E01 /* main.m in Sources */,
-				0970728621D71997004E1E01 /* UIDevice+YTInfo.m in Sources */,
+				090314C021DC8B7900B4D836 /* UIDevice+YTInfo.m in Sources */,
 				0970725F21D71742004E1E01 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,7 +229,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0970728721D71997004E1E01 /* UIDevice+YTInfo.m in Sources */,
 				0970727721D71743004E1E01 /* YTToolTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,7 +314,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -376,7 +366,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -390,6 +380,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7TNL83WLRC;
 				INFOPLIST_FILE = YTTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -407,6 +398,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7TNL83WLRC;
 				INFOPLIST_FILE = YTTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

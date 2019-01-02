@@ -200,7 +200,8 @@ static NSString *KeyChainIdentifier = @"YouKey";
   NSString *imsi;
   imsi = [self queryKeychainItemWithIdentifier:KeyChainIdentifier];
   if (imsi == nil) {
-    imsi = @"1111";
+    NSMutableString *str = [NSMutableString stringWithString:[[[UIDevice currentDevice] identifierForVendor] UUIDString]];
+    imsi = [str copy];
     [self saveKeychainItem:imsi WithIdentifier:KeyChainIdentifier];
   }
   return imsi;
