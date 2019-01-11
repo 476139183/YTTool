@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:YTTool.xcodeproj">
+      location = "self:YTToolPortal.xcodeproj">
    </FileRef>
 </Workspace>

@@ -2,7 +2,7 @@
 //  UIDevice+YTInfo.h
 //  YTTool
 //
-//  Created by Yutian Duan on 2018/12/29.
+//  Created by Yutian Duan on 2018/12/10.
 //  Copyright © 2018年 Wanwin. All rights reserved.
 //
 

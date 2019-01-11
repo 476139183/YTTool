@@ -1,27 +1,25 @@
 //
-//  YTToolTests.m
-//  YTToolTests
+//  YTToolPortalTests.m
+//  YTToolPortalTests
 //
-//  Created by Yutian Duan on 2018/12/29.
-//  Copyright © 2018年 Wanwin. All rights reserved.
+//  Created by Yutian Duan on 2019/1/11.
+//  Copyright © 2019年 Wanwin. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface YTToolTests : XCTestCase
+@interface YTToolPortalTests : XCTestCase
 
 @end
 
-@implementation YTToolTests
+@implementation YTToolPortalTests
 
 - (void)setUp {
-    [super setUp];
     // Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
 - (void)tearDown {
     // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
 }
 
 - (void)testExample {
