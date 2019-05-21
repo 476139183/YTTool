@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "YTToolPortal"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "YTToolPortal 工具"
   s.description      = "test description"
 
