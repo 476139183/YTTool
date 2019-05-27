@@ -18,10 +18,10 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   
-  s.subspec 'YTCategoryTool' do |b|
-    b.source_files = 'YTToolPortal/YTToolPortal/YTCategory/*.{h,m}'
-    b.public_header_files = 'YTToolPortal/YTToolPortal/YTCategory/YTCategoryHeader.h'
-  end
+  #s.subspec 'YTCategoryTool' do |b|
+   # b.source_files = 'YTToolPortal/YTToolPortal/YTCategory/*.{h,m}'
+    #b.public_header_files = 'YTToolPortal/YTToolPortal/YTCategory/YTCategoryHeader.h'
+  #end
 
 
 end
