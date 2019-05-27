@@ -53,7 +53,7 @@
   return [image yt_roundedCornerImage:roundedCornerImage borderSize:borderSize];
 }
 
-+(NSArray *)splitImageIntoTwoParts:(UIImage *)image {
++ (NSArray *)yt_splitImageIntoTwoParts:(UIImage *)image {
   CGFloat scale = [[UIScreen mainScreen] scale];
   NSMutableArray *array = [NSMutableArray arrayWithCapacity:2];
   CGFloat width,height,widthgap,heightgap;

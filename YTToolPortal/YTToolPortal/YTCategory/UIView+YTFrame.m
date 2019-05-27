@@ -108,7 +108,7 @@
   self.frame = frame;
 }
 
-- (CGPoint)yt_origin {
+- (CGPoint)yt_Origin {
   return self.frame.origin;
 }
 
