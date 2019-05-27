@@ -16,12 +16,12 @@ static NSString *KeyChainIdentifier = @"YouKey";
 
 @implementation UIDevice (YTInfo)
 
-//! 获取app build 号
+//! 获取 App build 号
 + (NSString *)yt_appBuild {
   return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleVersion"];
 }
 
-//! 获取app version 号
+//! 获取 App version 号
 + (NSString *)yt_appVersion {
   return [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
 }
@@ -45,12 +45,12 @@ static NSString *KeyChainIdentifier = @"YouKey";
 
 /*=========================================*/
 
-//！ 设备 系统号
+//！获取 设备 系统版本号
 + (NSString *)yt_systemNo {
   return [[UIDevice currentDevice] systemVersion];
 }
 
-/*! 获取设备名称
+/*! 获取 设备 名称
  * 更新到 iPhoneXR
  */
 + (NSString *)yt_systemName {

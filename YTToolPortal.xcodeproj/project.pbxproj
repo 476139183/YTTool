@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		092359402293F805001B92CA /* UIView+YTFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0923593F2293F805001B92CA /* UIView+YTFrame.m */; };
+		092359422294DE3C001B92CA /* Foundation+YTLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 092359412294DE3B001B92CA /* Foundation+YTLog.m */; };
+		0923594B2297E8ED001B92CA /* UIImage+YTAlpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 0923594A2297E8ED001B92CA /* UIImage+YTAlpha.m */; };
+		0923594E2297EF60001B92CA /* UIImage+YTCut.m in Sources */ = {isa = PBXBuildFile; fileRef = 0923594D2297EF60001B92CA /* UIImage+YTCut.m */; };
+		092359512297F165001B92CA /* UIImage+YTResize.m in Sources */ = {isa = PBXBuildFile; fileRef = 092359502297F165001B92CA /* UIImage+YTResize.m */; };
+		092359542297F48E001B92CA /* UIImage+YTRoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 092359532297F48E001B92CA /* UIImage+YTRoundedCorner.m */; };
 		0967C29321E848B000E4A82C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0967C29221E848B000E4A82C /* AppDelegate.m */; };
 		0967C29621E848B000E4A82C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0967C29521E848B000E4A82C /* ViewController.m */; };
 		0967C29921E848B000E4A82C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0967C29721E848B000E4A82C /* Main.storyboard */; };
@@ -28,6 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0923593E2293F805001B92CA /* UIView+YTFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+YTFrame.h"; sourceTree = "<group>"; };
+		0923593F2293F805001B92CA /* UIView+YTFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+YTFrame.m"; sourceTree = "<group>"; };
+		092359412294DE3B001B92CA /* Foundation+YTLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+YTLog.m"; sourceTree = "<group>"; };
+		092359492297E8ED001B92CA /* UIImage+YTAlpha.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+YTAlpha.h"; sourceTree = "<group>"; };
+		0923594A2297E8ED001B92CA /* UIImage+YTAlpha.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YTAlpha.m"; sourceTree = "<group>"; };
+		0923594C2297EF60001B92CA /* UIImage+YTCut.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+YTCut.h"; sourceTree = "<group>"; };
+		0923594D2297EF60001B92CA /* UIImage+YTCut.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YTCut.m"; sourceTree = "<group>"; };
+		0923594F2297F165001B92CA /* UIImage+YTResize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+YTResize.h"; sourceTree = "<group>"; };
+		092359502297F165001B92CA /* UIImage+YTResize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YTResize.m"; sourceTree = "<group>"; };
+		092359522297F48E001B92CA /* UIImage+YTRoundedCorner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+YTRoundedCorner.h"; sourceTree = "<group>"; };
+		092359532297F48E001B92CA /* UIImage+YTRoundedCorner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YTRoundedCorner.m"; sourceTree = "<group>"; };
 		0967C28E21E848B000E4A82C /* YTToolPortal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTToolPortal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0967C29121E848B000E4A82C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0967C29221E848B000E4A82C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -44,6 +61,7 @@
 		0967C2B621E8493400E4A82C /* YTToolHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTToolHeader.h; sourceTree = "<group>"; };
 		0967C2B721E8493400E4A82C /* UIDevice+YTInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+YTInfo.h"; sourceTree = "<group>"; };
 		0967C2B821E8493400E4A82C /* UIDevice+YTInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+YTInfo.m"; sourceTree = "<group>"; };
+		09D11587229B742800C8E72A /* YTCategoryHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTCategoryHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +82,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0923593D2293F6C8001B92CA /* YTCategory */ = {
+			isa = PBXGroup;
+			children = (
+				09D11587229B742800C8E72A /* YTCategoryHeader.h */,
+				0967C2B721E8493400E4A82C /* UIDevice+YTInfo.h */,
+				0967C2B821E8493400E4A82C /* UIDevice+YTInfo.m */,
+				0923593E2293F805001B92CA /* UIView+YTFrame.h */,
+				0923593F2293F805001B92CA /* UIView+YTFrame.m */,
+				092359492297E8ED001B92CA /* UIImage+YTAlpha.h */,
+				0923594A2297E8ED001B92CA /* UIImage+YTAlpha.m */,
+				0923594C2297EF60001B92CA /* UIImage+YTCut.h */,
+				0923594D2297EF60001B92CA /* UIImage+YTCut.m */,
+				0923594F2297F165001B92CA /* UIImage+YTResize.h */,
+				092359502297F165001B92CA /* UIImage+YTResize.m */,
+				092359522297F48E001B92CA /* UIImage+YTRoundedCorner.h */,
+				092359532297F48E001B92CA /* UIImage+YTRoundedCorner.m */,
+				092359412294DE3B001B92CA /* Foundation+YTLog.m */,
+			);
+			path = YTCategory;
+			sourceTree = "<group>";
+		};
 		0967C28521E848B000E4A82C = {
 			isa = PBXGroup;
 			children = (
@@ -112,8 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				0967C2B621E8493400E4A82C /* YTToolHeader.h */,
-				0967C2B721E8493400E4A82C /* UIDevice+YTInfo.h */,
-				0967C2B821E8493400E4A82C /* UIDevice+YTInfo.m */,
+				0923593D2293F6C8001B92CA /* YTCategory */,
 			);
 			path = YTToolPortal;
 			sourceTree = "<group>";
@@ -218,10 +256,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				092359512297F165001B92CA /* UIImage+YTResize.m in Sources */,
 				0967C29621E848B000E4A82C /* ViewController.m in Sources */,
+				092359402293F805001B92CA /* UIView+YTFrame.m in Sources */,
+				0923594B2297E8ED001B92CA /* UIImage+YTAlpha.m in Sources */,
 				0967C2A121E848B100E4A82C /* main.m in Sources */,
 				0967C2B921E8493400E4A82C /* UIDevice+YTInfo.m in Sources */,
 				0967C29321E848B000E4A82C /* AppDelegate.m in Sources */,
+				092359422294DE3C001B92CA /* Foundation+YTLog.m in Sources */,
+				0923594E2297EF60001B92CA /* UIImage+YTCut.m in Sources */,
+				092359542297F48E001B92CA /* UIImage+YTRoundedCorner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +358,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -367,7 +411,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -382,6 +426,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7TNL83WLRC;
 				INFOPLIST_FILE = YTToolPortal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -399,6 +444,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7TNL83WLRC;
 				INFOPLIST_FILE = YTToolPortal/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

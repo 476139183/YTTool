@@ -9,6 +9,7 @@
 #ifndef YTToolHeader_h
 #define YTToolHeader_h
 
+#import "YTCategoryHeader.h"
 
 
 #endif /* YTToolHeader_h */
