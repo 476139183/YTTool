@@ -108,11 +108,11 @@
   self.frame = frame;
 }
 
-- (CGPoint)yt_Origin {
+- (CGPoint)yt_origin {
   return self.frame.origin;
 }
 
-- (void)setOrigin:(CGPoint)a_origin {
+- (void)yt_setOrigin:(CGPoint)a_origin {
   CGRect frame = self.frame;
   frame.origin = a_origin;
   self.frame = frame;

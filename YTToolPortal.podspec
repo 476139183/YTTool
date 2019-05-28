@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://476139183.github.io" 
   s.author       = { "duanyutian" => "476139183@qq.com" }
 
-  s.platform     = :ios, "8.0"
+  s.platform     = :ios, "9.0"
   s.source       = { :git => "https://github.com/476139183/YTToolPortal.git", :tag => s.version } 
 
   s.prefix_header_contents = '#import "YTToolHeader.h"'

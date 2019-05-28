@@ -44,10 +44,13 @@
 @property (assign, nonatomic, setter=yt_setHeight:) CGFloat yt_height;
 
 @property (assign, nonatomic, setter=yt_setSize:) CGSize yt_size;
+
+@property (assign, nonatomic, setter=yt_setOrigin:) CGPoint yt_origin;
+
 /**
  起始坐标
  */
-@property (assign, nonatomic, setter=yt_setOrigin:) CGPoint yt_origin;
+//@property (assign, nonatomic, setter=yt_setOrigin:) CGPoint yt_origin;
 
 /**
  移除View上面所有的子视图
