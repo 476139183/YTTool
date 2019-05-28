@@ -61,16 +61,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0923593D2293F6C8001B92CA /* YTCategory */ = {
-			isa = PBXGroup;
-			children = (
-				09D11587229B742800C8E72A /* YTCategoryHeader.h */,
-				0967C2B721E8493400E4A82C /* UIDevice+YTInfo.h */,
-				0967C2B821E8493400E4A82C /* UIDevice+YTInfo.m */,
-			);
-			path = YTCategory;
-			sourceTree = "<group>";
-		};
 		0967C28521E848B000E4A82C = {
 			isa = PBXGroup;
 			children = (
@@ -117,7 +107,9 @@
 			isa = PBXGroup;
 			children = (
 				0967C2B621E8493400E4A82C /* YTToolHeader.h */,
-				0923593D2293F6C8001B92CA /* YTCategory */,
+				09D11587229B742800C8E72A /* YTCategoryHeader.h */,
+				0967C2B721E8493400E4A82C /* UIDevice+YTInfo.h */,
+				0967C2B821E8493400E4A82C /* UIDevice+YTInfo.m */,
 			);
 			path = YTToolPortal;
 			sourceTree = "<group>";
