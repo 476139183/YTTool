@@ -41,7 +41,6 @@
 		0967C2B621E8493400E4A82C /* YTToolHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTToolHeader.h; sourceTree = "<group>"; };
 		0967C2B721E8493400E4A82C /* UIDevice+YTInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+YTInfo.h"; sourceTree = "<group>"; };
 		0967C2B821E8493400E4A82C /* UIDevice+YTInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+YTInfo.m"; sourceTree = "<group>"; };
-		09D11587229B742800C8E72A /* YTCategoryHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTCategoryHeader.h; sourceTree = "<group>"; };
 		09D11723229CCF0800C8E72A /* UIView+YTFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YTFrame.h"; sourceTree = "<group>"; };
 		09D11728229CCF0800C8E72A /* UIView+YTFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YTFrame.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,7 +109,6 @@
 			isa = PBXGroup;
 			children = (
 				0967C2B621E8493400E4A82C /* YTToolHeader.h */,
-				09D11587229B742800C8E72A /* YTCategoryHeader.h */,
 				0967C2B721E8493400E4A82C /* UIDevice+YTInfo.h */,
 				0967C2B821E8493400E4A82C /* UIDevice+YTInfo.m */,
 				09D11723229CCF0800C8E72A /* UIView+YTFrame.h */,
