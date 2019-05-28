@@ -13,6 +13,12 @@
 		0967C2A121E848B100E4A82C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0967C2A021E848B100E4A82C /* main.m */; };
 		0967C2AB21E848B100E4A82C /* YTToolPortalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0967C2AA21E848B100E4A82C /* YTToolPortalTests.m */; };
 		0967C2B921E8493400E4A82C /* UIDevice+YTInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0967C2B821E8493400E4A82C /* UIDevice+YTInfo.m */; };
+		09D1172B229CCF0900C8E72A /* UIImage+YTAlpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D11721229CCF0800C8E72A /* UIImage+YTAlpha.m */; };
+		09D1172C229CCF0900C8E72A /* UIImage+YTRoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D11722229CCF0800C8E72A /* UIImage+YTRoundedCorner.m */; };
+		09D1172D229CCF0900C8E72A /* UIImage+YTCut.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D11724229CCF0800C8E72A /* UIImage+YTCut.m */; };
+		09D1172E229CCF0900C8E72A /* UIImage+YTResize.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D11726229CCF0800C8E72A /* UIImage+YTResize.m */; };
+		09D1172F229CCF0900C8E72A /* Foundation+YTLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D11727229CCF0800C8E72A /* Foundation+YTLog.m */; };
+		09D11730229CCF0900C8E72A /* UIView+YTFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D11728229CCF0800C8E72A /* UIView+YTFrame.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +47,17 @@
 		0967C2B721E8493400E4A82C /* UIDevice+YTInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+YTInfo.h"; sourceTree = "<group>"; };
 		0967C2B821E8493400E4A82C /* UIDevice+YTInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+YTInfo.m"; sourceTree = "<group>"; };
 		09D11587229B742800C8E72A /* YTCategoryHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTCategoryHeader.h; sourceTree = "<group>"; };
+		09D11720229CCF0700C8E72A /* UIImage+YTResize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YTResize.h"; sourceTree = "<group>"; };
+		09D11721229CCF0800C8E72A /* UIImage+YTAlpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YTAlpha.m"; sourceTree = "<group>"; };
+		09D11722229CCF0800C8E72A /* UIImage+YTRoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YTRoundedCorner.m"; sourceTree = "<group>"; };
+		09D11723229CCF0800C8E72A /* UIView+YTFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YTFrame.h"; sourceTree = "<group>"; };
+		09D11724229CCF0800C8E72A /* UIImage+YTCut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YTCut.m"; sourceTree = "<group>"; };
+		09D11725229CCF0800C8E72A /* UIImage+YTCut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YTCut.h"; sourceTree = "<group>"; };
+		09D11726229CCF0800C8E72A /* UIImage+YTResize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YTResize.m"; sourceTree = "<group>"; };
+		09D11727229CCF0800C8E72A /* Foundation+YTLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+YTLog.m"; sourceTree = "<group>"; };
+		09D11728229CCF0800C8E72A /* UIView+YTFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YTFrame.m"; sourceTree = "<group>"; };
+		09D11729229CCF0900C8E72A /* UIImage+YTAlpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YTAlpha.h"; sourceTree = "<group>"; };
+		09D1172A229CCF0900C8E72A /* UIImage+YTRoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YTRoundedCorner.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,8 +125,19 @@
 			children = (
 				0967C2B621E8493400E4A82C /* YTToolHeader.h */,
 				09D11587229B742800C8E72A /* YTCategoryHeader.h */,
+				09D11727229CCF0800C8E72A /* Foundation+YTLog.m */,
 				0967C2B721E8493400E4A82C /* UIDevice+YTInfo.h */,
 				0967C2B821E8493400E4A82C /* UIDevice+YTInfo.m */,
+				09D11729229CCF0900C8E72A /* UIImage+YTAlpha.h */,
+				09D11721229CCF0800C8E72A /* UIImage+YTAlpha.m */,
+				09D11725229CCF0800C8E72A /* UIImage+YTCut.h */,
+				09D11724229CCF0800C8E72A /* UIImage+YTCut.m */,
+				09D11720229CCF0700C8E72A /* UIImage+YTResize.h */,
+				09D11726229CCF0800C8E72A /* UIImage+YTResize.m */,
+				09D1172A229CCF0900C8E72A /* UIImage+YTRoundedCorner.h */,
+				09D11722229CCF0800C8E72A /* UIImage+YTRoundedCorner.m */,
+				09D11723229CCF0800C8E72A /* UIView+YTFrame.h */,
+				09D11728229CCF0800C8E72A /* UIView+YTFrame.m */,
 			);
 			path = YTToolPortal;
 			sourceTree = "<group>";
@@ -212,8 +240,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09D1172E229CCF0900C8E72A /* UIImage+YTResize.m in Sources */,
+				09D11730229CCF0900C8E72A /* UIView+YTFrame.m in Sources */,
+				09D1172B229CCF0900C8E72A /* UIImage+YTAlpha.m in Sources */,
 				0967C29621E848B000E4A82C /* ViewController.m in Sources */,
 				0967C2A121E848B100E4A82C /* main.m in Sources */,
+				09D1172D229CCF0900C8E72A /* UIImage+YTCut.m in Sources */,
+				09D1172F229CCF0900C8E72A /* Foundation+YTLog.m in Sources */,
+				09D1172C229CCF0900C8E72A /* UIImage+YTRoundedCorner.m in Sources */,
 				0967C2B921E8493400E4A82C /* UIDevice+YTInfo.m in Sources */,
 				0967C29321E848B000E4A82C /* AppDelegate.m in Sources */,
 			);
