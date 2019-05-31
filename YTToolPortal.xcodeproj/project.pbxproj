@@ -31,7 +31,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		091F6F0822A0C16100DB37E9 /* YTCategoryHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTCategoryHeader.h; sourceTree = "<group>"; };
 		091F6F0922A0C16A00DB37E9 /* UIImage+YTAlpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YTAlpha.m"; sourceTree = "<group>"; };
 		091F6F0A22A0C16A00DB37E9 /* UIImage+YTRoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YTRoundedCorner.h"; sourceTree = "<group>"; };
 		091F6F0B22A0C16A00DB37E9 /* UIImage+YTResize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YTResize.h"; sourceTree = "<group>"; };
@@ -79,7 +78,6 @@
 		091F6F0722A0C13900DB37E9 /* YTCategoryTool */ = {
 			isa = PBXGroup;
 			children = (
-				091F6F0822A0C16100DB37E9 /* YTCategoryHeader.h */,
 				0967C2B721E8493400E4A82C /* UIDevice+YTInfo.h */,
 				0967C2B821E8493400E4A82C /* UIDevice+YTInfo.m */,
 				09D11723229CCF0800C8E72A /* UIView+YTFrame.h */,
