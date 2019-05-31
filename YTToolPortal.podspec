@@ -12,17 +12,12 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/476139183/YTToolPortal.git", :tag => s.version } 
 
-  s.public_header_files = 'YTToolPortal/YTToolPortal/YTToolHeader.h'
   s.source_files  = "YTToolPortal/YTToolPortal/*.{h,m}"
   s.prefix_header_contents = '#import "YTToolHeader.h"'
 
 
   s.requires_arc = true
   
- # s.subspec 'YTCategory' do |bb|
-  #  bb.source_files = "YTToolPortal/YTToolPortal/YTCategory/*.{h,m}"
-   # bb.public_header_files = 'YTToolPortal/YTToolPortal/YTCategory/*.h'
-  #end
 
 
 end
