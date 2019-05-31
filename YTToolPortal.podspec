@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   
   s.subspec 'YTCategoryTool' do |dd|
-    dd.source_files  = "YTToolPortal/YTCategoryTool/*.{h,m}"
+    dd.source_files  = "YTToolPortal/YTToolPortal/YTCategoryTool/*.{h,m}"
   end
 
 
