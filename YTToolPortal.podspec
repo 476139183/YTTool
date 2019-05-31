@@ -14,10 +14,13 @@ Pod::Spec.new do |s|
 
   s.source_files  = "YTToolPortal/YTToolPortal/*.{h,m}"
   s.prefix_header_contents = '#import "YTToolHeader.h"'
-
-
   s.requires_arc = true
   
+  s.subspec 'YTCategoryTool' do |dd|
+    dd.source_files  = "YTToolPortal/YTCategoryTool/*.{h,m}"
+    dd.prefix_header_contents = '#import "YTCategoryHeader.h"'
+  end
+
 
 
 end

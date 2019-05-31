@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		091F6F1122A0C16A00DB37E9 /* UIImage+YTAlpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 091F6F0922A0C16A00DB37E9 /* UIImage+YTAlpha.m */; };
+		091F6F1222A0C16A00DB37E9 /* UIImage+YTCut.m in Sources */ = {isa = PBXBuildFile; fileRef = 091F6F0C22A0C16A00DB37E9 /* UIImage+YTCut.m */; };
+		091F6F1322A0C16A00DB37E9 /* UIImage+YTRoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 091F6F0E22A0C16A00DB37E9 /* UIImage+YTRoundedCorner.m */; };
+		091F6F1422A0C16A00DB37E9 /* UIImage+YTResize.m in Sources */ = {isa = PBXBuildFile; fileRef = 091F6F1022A0C16A00DB37E9 /* UIImage+YTResize.m */; };
 		0967C29321E848B000E4A82C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0967C29221E848B000E4A82C /* AppDelegate.m */; };
 		0967C29621E848B000E4A82C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0967C29521E848B000E4A82C /* ViewController.m */; };
 		0967C29B21E848B100E4A82C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0967C29A21E848B100E4A82C /* Assets.xcassets */; };
@@ -27,6 +31,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		091F6F0822A0C16100DB37E9 /* YTCategoryHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTCategoryHeader.h; sourceTree = "<group>"; };
+		091F6F0922A0C16A00DB37E9 /* UIImage+YTAlpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YTAlpha.m"; sourceTree = "<group>"; };
+		091F6F0A22A0C16A00DB37E9 /* UIImage+YTRoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YTRoundedCorner.h"; sourceTree = "<group>"; };
+		091F6F0B22A0C16A00DB37E9 /* UIImage+YTResize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YTResize.h"; sourceTree = "<group>"; };
+		091F6F0C22A0C16A00DB37E9 /* UIImage+YTCut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YTCut.m"; sourceTree = "<group>"; };
+		091F6F0D22A0C16A00DB37E9 /* UIImage+YTAlpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YTAlpha.h"; sourceTree = "<group>"; };
+		091F6F0E22A0C16A00DB37E9 /* UIImage+YTRoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YTRoundedCorner.m"; sourceTree = "<group>"; };
+		091F6F0F22A0C16A00DB37E9 /* UIImage+YTCut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+YTCut.h"; sourceTree = "<group>"; };
+		091F6F1022A0C16A00DB37E9 /* UIImage+YTResize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+YTResize.m"; sourceTree = "<group>"; };
 		0967C28E21E848B000E4A82C /* YTToolPortal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTToolPortal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0967C29121E848B000E4A82C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0967C29221E848B000E4A82C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -63,6 +76,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		091F6F0722A0C13900DB37E9 /* YTCategoryTool */ = {
+			isa = PBXGroup;
+			children = (
+				091F6F0822A0C16100DB37E9 /* YTCategoryHeader.h */,
+				0967C2B721E8493400E4A82C /* UIDevice+YTInfo.h */,
+				0967C2B821E8493400E4A82C /* UIDevice+YTInfo.m */,
+				09D11723229CCF0800C8E72A /* UIView+YTFrame.h */,
+				09D11728229CCF0800C8E72A /* UIView+YTFrame.m */,
+				091F6F0D22A0C16A00DB37E9 /* UIImage+YTAlpha.h */,
+				091F6F0922A0C16A00DB37E9 /* UIImage+YTAlpha.m */,
+				091F6F0F22A0C16A00DB37E9 /* UIImage+YTCut.h */,
+				091F6F0C22A0C16A00DB37E9 /* UIImage+YTCut.m */,
+				091F6F0B22A0C16A00DB37E9 /* UIImage+YTResize.h */,
+				091F6F1022A0C16A00DB37E9 /* UIImage+YTResize.m */,
+				091F6F0A22A0C16A00DB37E9 /* UIImage+YTRoundedCorner.h */,
+				091F6F0E22A0C16A00DB37E9 /* UIImage+YTRoundedCorner.m */,
+			);
+			path = YTCategoryTool;
+			sourceTree = "<group>";
+		};
 		0967C28521E848B000E4A82C = {
 			isa = PBXGroup;
 			children = (
@@ -109,10 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				0967C2B621E8493400E4A82C /* YTToolHeader.h */,
-				0967C2B721E8493400E4A82C /* UIDevice+YTInfo.h */,
-				0967C2B821E8493400E4A82C /* UIDevice+YTInfo.m */,
-				09D11723229CCF0800C8E72A /* UIView+YTFrame.h */,
-				09D11728229CCF0800C8E72A /* UIView+YTFrame.m */,
+				091F6F0722A0C13900DB37E9 /* YTCategoryTool */,
 			);
 			path = YTToolPortal;
 			sourceTree = "<group>";
@@ -215,11 +245,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				091F6F1422A0C16A00DB37E9 /* UIImage+YTResize.m in Sources */,
 				09D11730229CCF0900C8E72A /* UIView+YTFrame.m in Sources */,
 				0967C29621E848B000E4A82C /* ViewController.m in Sources */,
 				0967C2A121E848B100E4A82C /* main.m in Sources */,
+				091F6F1222A0C16A00DB37E9 /* UIImage+YTCut.m in Sources */,
+				091F6F1122A0C16A00DB37E9 /* UIImage+YTAlpha.m in Sources */,
 				0967C2B921E8493400E4A82C /* UIDevice+YTInfo.m in Sources */,
 				0967C29321E848B000E4A82C /* AppDelegate.m in Sources */,
+				091F6F1322A0C16A00DB37E9 /* UIImage+YTRoundedCorner.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
