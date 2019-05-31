@@ -18,7 +18,6 @@ Pod::Spec.new do |s|
   
   s.subspec 'YTCategoryTool' do |dd|
     dd.source_files  = "YTToolPortal/YTCategoryTool/*.{h,m}"
-    dd.prefix_header_contents = '#import "YTCategoryHeader.h"'
   end
 
 
