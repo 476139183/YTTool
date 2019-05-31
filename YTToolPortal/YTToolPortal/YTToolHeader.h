@@ -9,5 +9,13 @@
 #ifndef YTToolHeader_h
 #define YTToolHeader_h
 
+#import "UIDevice+YTInfo.h"
+#import "UIView+YTFrame.h"
+
+#import "UIImage+YTAlpha.h"
+#import "UIImage+YTCut.h"
+#import "UIImage+YTResize.h"
+#import "UIImage+YTRoundedCorner.h"
+
 
 #endif /* YTToolHeader_h */
