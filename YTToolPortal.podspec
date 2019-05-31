@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/476139183/YTToolPortal.git", :tag => s.version } 
 
   s.source_files  = "YTToolPortal/YTToolPortal/*"
-  #s.prefix_header_contents = '#import "YTToolHeader.h"'
+  #s.prefix_header_contents = '#import "YTToolPortal.h"'
   s.requires_arc = true
   
   s.subspec 'YTCategoryTool' do |dd|
